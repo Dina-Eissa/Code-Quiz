@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Quiz</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+  </head>
+  <body>
+    <!--header included timer-->
+    <header>
+      <div class="quiz_head" id="headQ">
+        <div class="highScore">
+          <a href="#" id="viewHigh">View High Score</a>
+        </div>
+        <div class="timer" id="timer">Time:</div>
+      </div>
+    </header>
+
+    <main>
+      <!--Start quiz page -->
+      <section class="start_container" id="startCont">
+        <h2>Coding Quiz Challenge</h2>
+        <p class="quiz_start">
+          Following quiz provides Multiple Choice Questions (MCQs) related to
+          Javascript Framework. You will have to read all the given answers and
+          click over the correct answer.
+        </p>
+        <button class="quiz_btn" id="startBtn">Start Quize</button>
+      </section>
+
+      <!--Question section-->
+      <section id="quiz">
+        <h3 id="questions">Questions</h3>
+        <ul>
+          <li><button id="a" value="0" class="choice_btn">A</button></li>
+          <li><button id="b" value="1" class="choice_btn">B</button></li>
+          <li><button id="c" value="2" class="choice_btn">C</button></li>
+          <li><button id="d" value="3" class="choice_btn">D</button></li>
+        </ul>
+        <div id="result">
+          <hr />
+        </div>
+      </section>
+
+      <!--Final Score and input initials-->
+      <section id="finalScore">
+        <h2>All Done!</h2>
+        <p>Your final score is <span id="scoreF"></span>.</p>
+        <label>Enter Enitials: </label>
+        <input type="text" id="init" />
+        <button class="quiz_btn" id="subScore">Submit</button>
+      </section>
+
+      <!--Highscores section-->
+      <section id="highScore">
+        <h2>High Scores</h2>
+        <div id="highScore_list">
+          <ul id="highscore-initials"></ul>
+          <ul id="highscore-score"></ul>
+        </div>
+        <div class="row">
+          <button class="quiz_btn" id="back">Go Back</button>
+          <button class="quiz_btn" id="clear">Clear</button>
+        </div>
+      </section>
+    </main>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
