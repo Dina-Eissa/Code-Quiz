@@ -34,7 +34,6 @@ THEN I can save my initials and my score
 
 The following animation demonstrates the application functionality:
 
-![starting screen.](./Screenshot.png)
 ![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Screenshot2.png)
 
 ##URL
