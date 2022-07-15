@@ -34,7 +34,8 @@ THEN I can save my initials and my score
 
 The following animation demonstrates the application functionality:
 
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Screenshot2.png)(./Screenshot.png)
+![starting screen.](./Screenshot.png)
+![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Screenshot2.png)
 
 ##URL
 https://dina-eissa.github.io/Code-Quiz/
